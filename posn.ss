@@ -93,8 +93,4 @@
     [else
      (posn+2 (first ps) (apply posn+ (rest ps)))]))
 
-(: degrees->radians (Number -> Number))
-(define (degrees->radians d)
-  (* d (/ pi 180)))
-
 (provide (all-defined-out))
